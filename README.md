@@ -12,7 +12,7 @@ Built with:
 ---
 
 ## 📁 Project Structure
-
+```bash
 inventory_mgmt/
 ├── inventory_mgmt/              # Django app
 │   ├── models.py       # Model (data layer)
@@ -27,7 +27,7 @@ inventory_mgmt/
     ├── settings.py
     ├── urls.py
     └── wsgi.py
-
+```
 
 ## 🚀 Setup & Run Locally
 
