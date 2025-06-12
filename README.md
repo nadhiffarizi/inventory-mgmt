@@ -13,19 +13,19 @@ Built with:
 
 ## 📁 Project Structure
 
-inventory_mgmt/ # Project root
-├── inventory/ # Primary Django app
-│ ├── models.py # Data models (Warehouse, Item, Transaction)
-│ ├── views.py # Business logic + controllers
-│ ├── urls.py # Route definitions
-│ ├── templates/ # HTML templates
-│ ├── forms.py # Django forms for input handling
-│ └── admin.py # Admin site registrations
-├── db.sqlite3 # Default SQLite database
+inventory_mgmt/                # Project root
+├── inventory/                 # Primary Django app
+│   ├── admin.py               # Admin site registrations
+│   ├── forms.py               # Django forms for input handling
+│   ├── models.py              # Data models (Warehouse, Item, Transaction)
+│   ├── templates/             # HTML templates
+│   ├── urls.py                # Route definitions
+│   └── views.py               # Business logic + controllers
+├── inventory_mgmt/           # Django project config
+│   ├── settings.py
+│   └── urls.py
+├── db.sqlite3                # Default SQLite database
 ├── manage.py
-└── inventory_mgmt/ # Django project config
-├── settings.py
-└── urls.py
 
 ## 🚀 Setup & Run Locally
 
